@@ -30,10 +30,10 @@ Clone this repository in a directory
 docker build -t <DockerHub Username>/minikubehelloworld .
 
 ### Login to Docker hub
-sudo docker login -u=<DockerHub Username> -p=<DockerHub Password>
+sudo docker login -u=DockerHub Username -p=DockerHub Password
 
 ### publish docker image to docker hub
-sudo docker push <DockerHub Username>/minikubehelloworld
+sudo docker push DockerHub Username/minikubehelloworld
 
 ### create kubernetes deployment with 2 replicas
 kubectl create -f helloworld-deployment.yaml
