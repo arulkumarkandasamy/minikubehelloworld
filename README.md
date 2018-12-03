@@ -38,12 +38,10 @@ sudo docker push DockerHub_Username/minikubehelloworld
 ### create kubernetes deployment with 2 replicas
 kubectl create -f helloworld-deployment.yaml
 
-## Minikube dashboard
-$ minikube dashboard
-
 ### create kubernetes service
 kubectl create -f helloworld-service.yaml
 
-
+## Minikube dashboard
+$ minikube dashboard
 
 
